@@ -2,8 +2,8 @@
     --cor-de-fundo: #a50052;
     }
     body {
-        background-color: var(--cor-de-fundo);
+        blackground-color: rgb(199, 0, 93)
         }
         h1 {
-            background-color: rgb(224, 0, 138);
+            background-color: rgb(255, 0, 157);
             }
