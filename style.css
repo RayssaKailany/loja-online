@@ -1,5 +1,8 @@
+@import url(“styles/header.css”);
+
 :root {
     --cor-de-fundo: #a50052;
+    --branco: #FFFFFF;
     }
 body {
     background-color: rgb(199, 0, 93);
@@ -8,15 +11,6 @@ body {
  h1 {
  background-color: rgb(255, 0, 157);
             }
-.cabeçalho {
-  width: 24px;
-  height: 24px;
-  background-image: url(“../img/Menu.svg”);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  }
   .lista-menu {
     display: none;
     }
