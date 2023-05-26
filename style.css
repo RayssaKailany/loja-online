@@ -7,7 +7,7 @@
         h1 {
             background-color: rgb(255, 0, 157);
             }
-          .cabeçalho__menu-hamburguer {
+          .cabeçalho {
               width: 24px;
               height: 24px;
               background-image: url(“../img/Menu.svg”);
