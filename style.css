@@ -1,11 +1,12 @@
 :root {
     --cor-de-fundo: #a50052;
     }
-    body {
-          background-color: rgb(199, 0, 93);
-        }
-        h1 {
-            background-color: rgb(255, 0, 157);
+body {
+    background-color: rgb(199, 0, 93);
+    }
+        
+    h1 {
+ background-color: rgb(255, 0, 157);
             }
           .cabeçalho {
               width: 24px;
@@ -15,4 +16,4 @@
               background-repeat: no-repeat;
               background-position: center;
               display: inline-block;
-              }
+  }
