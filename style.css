@@ -5,13 +5,17 @@
     --branco: #e02e90;
     --laranja: #eb005a;
     --azul-degrade: linear-gradient(97.54deg, #9c0060 35.49%, #b3237c 165.37%);
+    --fonte-principal: “Poppins”;
     }
 body {
     background-color: rgb(199, 0, 93);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
     }
         
  h1 {
- background-color: rgb(255, 0, 157);
+    background-color: rgb(255, 0, 157);
             }
   .lista-menu {
     display: none;
