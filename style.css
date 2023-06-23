@@ -1,4 +1,5 @@
 @import url(“styles/header.css”);
+@import url(“styles/banner.css”);
 
 :root {
     --cor-de-fundo: #a50052;
@@ -14,42 +15,51 @@ body {
     font-weight: 400;
     }
         
- h1 {
+h1 {
     background-color: rgb(255, 0, 157);
             }
-  .lista-menu {
+.lista-menu {
     display: none;
     }
-    .container__botao:checked ~ .lista-menu {
+.container__botao:checked ~ .lista-menu {
     display: block;
     }
-    .cabeçalho {
+.cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     }
-    .lista-menu {
+.lista-menu {
     display: none;
     position: absolute;
     top: 100%;
     }
-    .lista-menu__titulo {
+.lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
     }
-    .lista-menu__item {
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
     }
-    .lista-menu__link {
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
     }
-    .container__botao {
+.container__botao {
     display: none;
+    }
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    }
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
     }
