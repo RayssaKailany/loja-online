@@ -55,15 +55,6 @@ h1 {
 .container__botao {
     display: none;
     }
-.banner__pesquisa::placeholder {
-    font-family: var(--fonte-principal);
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--branco);
-    background: url(“../img/Lupa.svg”) no-repeat;
-    background-position: 1em;
-    }
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
