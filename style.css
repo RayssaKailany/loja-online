@@ -1,5 +1,6 @@
 @import url(“styles/header.css”);
 @import url(“styles/banner.css”);
+@import url(“styles/carrossel.css”);
 
 :root {
     --cor-de-fundo: #a50052;
@@ -84,4 +85,10 @@ h1 {
     color: var(--branco);
     background: url(“../img/Lupa.svg”) no-repeat;
     background-position: 1em;
+    }
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
     }
