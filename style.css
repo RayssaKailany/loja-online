@@ -8,6 +8,7 @@
     --laranja: #eb005a;
     --azul-degrade: linear-gradient(97.54deg, #9c0060 35.49%, #b3237c 165.37%);
     --fonte-principal: “Poppins”;
+    --azul: #74044e;
     }
 body {
     background-color: rgb(199, 0, 93);
