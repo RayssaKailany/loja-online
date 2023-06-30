@@ -1,3 +1,10 @@
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    }
+.container__botao {
+    display: none;
+    }
 .cabeçalho {
     width: 24px;
     height: 24px;
