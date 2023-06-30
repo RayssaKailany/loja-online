@@ -19,8 +19,38 @@ body {
 h1 {
     background-color: rgb(255, 0, 157);
             }
+.cabeçalho {
+    width: 24px;
+    height: 24px;
+    background-image: url(“../img/Menu.svg”);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    }
+.container {
+    display: flex;
+    align-items: center;
+    }
+.container__imagem {
+    padding: 1em;
+    }
+.container__botao {
+    display: none;
+    }
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    }
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+    }
 .lista-menu {
     display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
     }
 .container__botao:checked ~ .lista-menu {
     display: block;
@@ -51,7 +81,4 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
-    }
-.container__botao {
-    display: none;
     }
